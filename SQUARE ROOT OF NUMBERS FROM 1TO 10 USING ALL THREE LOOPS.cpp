@@ -23,17 +23,17 @@ cout<<"NOW SECOND LOOP TYPE IS"<<endl;
 }
 cout<<"NOW THIRD LOOP TYPE IS"<<endl;
 {
-int i=0;
+int i=1;
 do
 {
     i++;
       if(i==5)
       continue;
-     cout<<"The Square Root Of "<<i<<" IS"<<i*i<<endl;
+     cout<<"The Square Root Of "<<i<<" is "<<i*i<<endl;
     
  
    }
-    while(i<=9);
+    while(i<=10);
 }
 }
 
